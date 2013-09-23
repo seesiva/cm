@@ -28,8 +28,8 @@ angular.module('cmApp')
     $scope.form = {};
     $scope.headers = ["EmpId", "FirstName", " LastName", "Email", "Mobile"];
     $scope.people = [
-    { "EmpID" : "STPL-01-020", "FirstName" : "Jagadish Babu", "LastName" : "SVS","Email":"svs.jagadish@scintel.com","Mobile":"12312321" },
-    { "EmpID" : "STPL-01-052", "FirstName" : "Jayaraju", "LastName" : "PJ","Email":"pj.jayaraju@scintel.com","Mobile":"12312321" }
+    { "EmpID" : "ABC-01-020", "FirstName" : "Jagadish Babu", "LastName" : "SVS","Email":"svs.jagadish@abc.com","Mobile":"12312321" },
+    { "EmpID" : "ABC-01-052", "FirstName" : "Jayaraju", "LastName" : "PJ","Email":"pj.jayaraju@abc.com","Mobile":"12312321" }
   ];
  $scope.open = function () {
 
